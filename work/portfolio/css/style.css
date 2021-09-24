@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+*{margin:0; padding:0;}
+body{font-family: 'Noto Sans KR', sans-serif; text-align: center;}
+/* ul{list-style:none;} */
+a{text-decoration: none; color:inherit;}
+
+/* layout */
+.conts{padding-top:50px; padding-bottom:40px;}
+.conts>h1{padding-bottom:15px; color:#222;}
+.conts>img{width: 1020px;}
+.cont_txt{padding:20px 0;}
+.cont_txt>p{font-size: 16px; font-weight: bold;  color:#222;}
+
+.site{
+  display: flex; 
+  justify-content: center; 
+  width: 700px; margin:0 auto; 
+  margin-bottom:50px; 
+  padding-bottom:25px; padding-top:30px;
+  border: 2px solid #eee; 
+  box-sizing: border-box;}
+
+.twosome{width: 300px; }
+.twosome>h2{font-weight: bold; font-size: 30px; border-bottom:2px solid #ddd; margin-bottom:10px; list-style:none;}
+.twosome>li{font-weight: normal; font-size: 20px;}
+.twosome>li:hover>a{color:#999;}
+
+.clue{padding-left:50px; width: 180px;}
+.clue>h2{font-weight: bold; font-size: 30px;border-bottom:2px solid #ddd; margin-bottom:10px; list-style:none;}
+.clue>li{font-weight: normal; font-size: 20px;}
+.clue>li:hover>a{color:#999;}
+
+.twosomeC{display: none; position: fixed; z-index:100; width: 100%; height: 100%; background: rgba(0, 0, 0,0.2);}
+.twosomeC_img{position: absolute; top:50%; left:50%; transform: translate(-50%,-50%);}
+.twosomeC_img>p{position: absolute; bottom:-30px; right:0; display: inline-block; font-size: 16px; font-weight: 500; border-bottom: 2px solid #ddd; padding:3px 5px}
+
+.clueC{display: none; position: fixed; z-index:100; width: 100%; height: 100%; background: rgba(0, 0, 0,0.3);}
+.clueC_img{position: absolute; top:50%; left:50%; transform: translate(-50%,-50%);}
+.clueC_img>p{position: absolute; bottom:-30px; right:0; display: inline-block; font-size: 16px; font-weight: 500; border-bottom: 2px solid #ddd; padding:3px 5px}
