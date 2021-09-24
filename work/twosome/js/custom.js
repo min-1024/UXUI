@@ -48,7 +48,7 @@ $(document).ready(function(){
     if($(this).scrollTop()>=$menu){
       $('.menu_btm>li').eq(0).animate({'top':'-3%'},500)
       $('.menu_btm>li').eq(1).animate({'top':'-20%'},500)
-      $('.menu_btm>li').eq(2).animate({'top':'12.3%'},1000)
+      $('.menu_btm>li').eq(2).animate({'top':'10%'},1000)
       $('.menu_btm>li').animate({'opacity':'1'},1000)
     }
   })

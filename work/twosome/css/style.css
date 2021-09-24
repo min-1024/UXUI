@@ -111,7 +111,7 @@ nav{background-color: #2E2F31;}
     border-radius:5px;
     font-weight:500;
   }
-  .menu_btn:hover{background-color: #987d65; color:#f9f9f9;}
+  .menu_btn:hover{border: 1px solid #8e5b4a; color:#8e5b4a;}
 
 .menu_btm{
   position: relative;
@@ -121,7 +121,7 @@ nav{background-color: #2E2F31;}
 .menu_btm>li:nth-child(1){align-items: flex-end;
 top:-30%; left:2.4%;}
 .menu_btm>li:nth-child(2){align-items: center; top:-50%; left:18.1%;}
-.menu_btm>li:nth-child(3){top:-17.7%; right:1.6%; align-items: center;}
+.menu_btm>li:nth-child(3){top:-17.7%; right:1.6%; align-items: flex-start;}
 
 .menu01_img{
   width:160px;
@@ -162,7 +162,7 @@ top:-30%; left:2.4%;}
   }
   .menu02>p:nth-child(3){font-size:14px;padding:5px;}
 
-.menu03{padding-right:17px; padding-top:27px;}
+.menu03{padding-right:17px; padding-top:40px;}
   .hot{
     background-color: #2E2F31;
     color:#fff;
@@ -177,7 +177,7 @@ top:-30%; left:2.4%;}
     font-weight:bold;
   }
   .menu03>p:nth-child(3){font-size:14px;padding:5px;}
-  .menu03_img{width:220px; transform:rotate(3deg)}
+  .menu03_img{width:255px; transform:rotate(3deg)}
 
 /* article_event */
 .event_wrap{
@@ -200,7 +200,7 @@ top:-30%; left:2.4%;}
   position: absolute;
   top:40.8%; left:50%;
   height:180px;}
-  .event_wrap h3{font-size:40px; color:#78575A;}
+  .event_wrap h3{font-size:40px; color:#684c4e;}
   .event_wrap p{
     color:#78575A;
     font-size:20px; font-weight:bold;
@@ -214,9 +214,8 @@ top:-30%; left:2.4%;}
     font-weight:500;
   }
   .event_btn:hover{
-    color:#f9f9f9;
-    border:solid 2px #f9f9f9;
-    background-color:#78575A;
+    border: 2px solid #503a3d; 
+    color:#503a3d;
   }
 
 /* article_dirve */
@@ -297,20 +296,21 @@ top:-30%; left:2.4%;}
  }
   .frachise_right h3{font-size:35px; color:#AB002C;}
   .frachise_right p{
-    margin:8px 0 16px 0;
+    margin:8px 0 20px 0;
     font-size:17px; font-weight:bold;}
 
   .franchise_btn{
     margin:0 auto;
-    border: 2px solid #555556;
-    border-radius:8px;
+    border: 1px solid #555556;
+    border-radius:5px;
     background-color: #AB002C;
-    width:55px; height:35px;
-    line-height:35px;
+    width:40px; height:25px;
+    line-height:25px;
+    margin-bottom:10px;
   }
   .franchise_btn a{display: block;}
-  .franchise_btn i{color:#2E2F31;}
-  .franchise_btn:hover i{color:#fff}
+  .franchise_btn i{color:#2E2F31; font-size: 15px;}
+  .franchise_btn:hover i{color:#eee}
 
 .sns{
   height:320px;
