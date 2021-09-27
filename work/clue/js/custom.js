@@ -3,14 +3,6 @@ $(document).ready(function(){
   const $sub=$('.sub,.sub_bg'),
   $gnbLi=$('.gnb>li'),
   $gnbSb=$('.gnb>li,.sub_bg')
-  // $sub.hide()
-
-  // $gnbLi.mouseenter(function(){
-  //   $sub.stop().slideDown()
-  // }).mouseleave(function(){
-  //   $sub.stop().slideUp()
-  // })
-
 
   $(window).resize(function(){
     let win=$(window),
@@ -18,16 +10,6 @@ $(document).ready(function(){
     $sub.css('display','none');
 
     if(winWid<=768){
-      // $sub.css('display','none');
-      // $gnbSb.mouseenter(function(){
-      //   $('.sub').removeClass('on');
-      //   $(this).find('.sub').addClass('on')
-      //   $(this).find('.sub').show()
-      // }).mouseleave(function(){
-      //   $(this).find('.sub').removeClass('on')
-      //   $(this).find('.sub').hide()
-      // });
-
       $sub.css('display','none');
       $gnbLi.click(function(){
         $('.sub').removeClass('on');
@@ -118,19 +100,6 @@ $(document).ready(function(){
       gotoSldier(nextIdx)
     },3800)
   }
-
-    //main slide
-    // let num=0;
-    // $('.main_img').stop().animate({'left':num},300)
-  
-    // setInterval(function(){
-    //   if(num<2){
-    //     num++
-    //   }else{
-    //     num=0;
-    //   }
-    //   $('.main_img').stop().animate({'left':-100*num+'%'},400)
-    // },3800);
   
   //new
   const $newBtnA=$('.new_btn>a'),
@@ -217,13 +186,6 @@ $(document).ready(function(){
       })
     }
   }).resize()
-
-  // $(window).scroll(function(){
-  //   if($(window).scrollTop()>=$cenB){
-  //     $('.center_banner_txt').animate({'left':'0'},1000)
-  //     $('.center_banner_r').animate({'top':'52%'},2000)
-  //   }
-  // })
 
   // exhibitions
   let exnum=0;

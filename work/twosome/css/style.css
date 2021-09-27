@@ -98,7 +98,6 @@ nav{background-color: #2E2F31;}
   #fff 0%,#fff 50%,#f7e7c2 50%,#f7e7c2 65%,
   #8e5b4a 65%,#8e5b4a 100%
   );}
-/* .menu{position: relative; border: 1px solid #000;} */
 .menu_top{padding-top:50px;}
   .menu_top>h3{
     font-size:17px; font-weight:bold;
@@ -315,7 +314,6 @@ top:-30%; left:2.4%;}
 .sns{
   height:320px;
   background-color: rgba(0, 0, 0, 0.8);
-  /* background-color: rgb(37, 37, 37); */
 }
 .sns>h3{padding-top:30px; font-size:25px;
   color:#f7f7f7;
